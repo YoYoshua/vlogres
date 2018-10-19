@@ -1,0 +1,3 @@
+Autor1|Tekst1
+Autor2|Tekst2
+Autor3|Tekst3

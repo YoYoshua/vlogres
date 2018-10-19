@@ -1,0 +1,20 @@
+﻿@model List<ListElement>
+@using Vlogres.WebUI.Models
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="section">
+    <h4>Wkrótce:</h4>
+    <br />
+    <ol>
+        @foreach (var Element in Model)
+        {
+            <li>@Element.Author - @Element.Title</li>
+        }
+    </ol>
+</div>
+
+
+
